@@ -49,3 +49,15 @@
       see http://www.w3schools.com/tags/tag_select.asp. Use the same .value
       property to get the value attribute of the currently-selected <option>
 */
+
+document.addEventListener('DOMContentLoaded', function() {
+    'use strict';
+
+    var number1 = document.getElementById('value-1').value;
+    var number2 = document.getElementById('value-2').value;
+    var equalButton = document.getElementById('equals-button').value;
+    equalButton.addEventListener('click', function () {
+
+    })
+
+})
